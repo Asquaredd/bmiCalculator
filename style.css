@@ -302,6 +302,16 @@
   
   
   @media screen and (max-width: 600px) {
+    .navbar{
+      height: 80px;
+    }
+    .logo{
+      height: 80px;
+    }
+    .logo-container{
+      height: 50px;
+      width: 50px;
+    }
     .calculator-container {
       font-family: "Ubuntu", sans-serif;
       font-size: larger;
