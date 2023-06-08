@@ -147,7 +147,7 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 120px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
     background: linear-gradient(to bottom, #007bff, #0056b3);
     color: #fff;
@@ -260,6 +260,7 @@
   
   .red-zone .arrow {
     display: block;
+    
   }
   /* Default styles for the calculation container */
 .calculator-container .output {
