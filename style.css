@@ -150,6 +150,7 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     margin-top: 200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
     background: linear-gradient(to bottom, #007bff, #0056b3);
@@ -307,6 +308,7 @@
       border-radius: 30px;
       text-align: center;
       width: 75%;
+      padding: 20px;
       max-width: 1000px;
       margin: 0 auto;
       margin-top: 350px;
@@ -319,14 +321,6 @@
     .calculator-container .output {
       font-family: 'Ubuntu', sans-serif;
     }
-    .navbar {
-      display: none;
-      height: auto;
-    }
-    .container{
-      display: none;
-    }
-
     
 } 
 
