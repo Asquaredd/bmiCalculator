@@ -12,6 +12,7 @@
     right: 0;
     z-index: 1000;
     border: #000 50px;
+    flex-basis: 100%;
   }
   
   .container {
@@ -20,7 +21,8 @@
     justify-content: space-between;
     height: 100%;
     border: #000 50px;
-    padding: 0 20%;
+    padding: 0 20px;
+    flex-wrap: wrap;
   }
   
   .navbar-logo {
@@ -300,18 +302,29 @@
   @media screen and (max-width: 600px) {
     .calculator-container {
       font-family: "Ubuntu", sans-serif;
-      border-radius: 5%;
-      padding-top: 50px;
-      max-width: 90%;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      box-shadow: none;
-      background-color: #E6E6FA;
+      font-size: larger;
+      border-radius: 30px;
+      text-align: center;
+      width: 75%;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+      padding-top: 150px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+      background: linear-gradient(to bottom, #007bff, #0056b3);
       color: #fff;
     }
     .calculator-container .output {
       font-family: 'Ubuntu', sans-serif;
     }
+    .navbar {
+      display: none;
+      height: auto;
+    }
+    .container{
+      display: none;
+    }
+
     
 } 
 
