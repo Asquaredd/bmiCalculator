@@ -1,6 +1,6 @@
-/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
-/* Navbar styles */
+
 .navbar {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 8, 82, 0.1);
@@ -130,7 +130,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background: linear-gradient(350deg, #E6E6FA, #e6e3e6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,6 +139,7 @@
   
   .calculator-container {
     font-family: "Ubuntu", sans-serif;
+    
     font-size: larger;
     border-radius: 30px;
     text-align: center;
@@ -276,9 +277,13 @@
       margin-top: 50px;
       margin-bottom: 50px;
       box-shadow: none;
-      background-color: #fff;
-      color: #000;
+      background-color: #E6E6FA;
+      color: #fff;
     }
+    .calculator-container .output {
+      font-family: 'Ubuntu', sans-serif;
+    }
+    
 } 
 
   

@@ -15,18 +15,22 @@ function calculateBMI() {
     // Update color zone and arrow
   const colorZone = document.querySelector('.color-zone');
   const arrow = document.querySelector('.arrow');
+  const outputText = document.getElementById("output-text");
   
   if (bmi < 18.5) {
     resultContainer.classList.remove('green-zone', 'yellow-zone');
     resultContainer.classList.add('red-zone');
+    outputText.textContent = "Unhealthy";
     arrow.style.marginLeft = 'calc(' + (bmi / 18.5) * 20 + '% - 5px)';
   } else if (bmi >= 18.5 && bmi <= 20) {
     resultContainer.classList.remove('red-zone', 'green-zone');
     resultContainer.classList.add('yellow-zone');
+    outputText.textContent = "Fair";
     arrow.style.marginLeft = 'calc(' + (bmi / 18.5) * 50 + '% - 5px)';
   } else if (bmi > 20 && bmi <= 24.9) {
     resultContainer.classList.remove('red-zone', 'yellow-zone');
     resultContainer.classList.add('green-zone');
+    outputText.textContent = "Healthy";
     arrow.style.marginLeft = 'calc(' + (bmi / 18.5) * 70 + '% - 5px)';
   }
 
